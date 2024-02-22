@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Computer</title>
+    <link href="../source/icon.png" rel="icon">
+    <link href="../style/format.css" rel="stylesheet">
+    <link href="../style/lienhe.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="banner">
+            <div id="logo">
+                <h1>Your Computer</h1>
+                <h3>For your job or gaming</h3>
+            </div>
+            <div id="search_box">
+                <label>Bạn cần tìm gì?</label>
+                <input>
+                <button>Search</button>
+            </div>
+            <div id="account">
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/account-icon.webp">
+                                    </td>
+                                    <td>
+                                        Tài khoản<br>Đăng nhập
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/cart-icon.webp">
+                                    </td>
+                                    <td>
+                                        Giỏ hàng
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="header">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="SanPham.html">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <div><a href="SanPham.html#CPU">CPU</a></div>
+                        <div><a href="SanPham.html#VGA">VGA</a></div>
+                        <div><a href="SanPham.html#RAM">RAM</a></div>
+                        <div><a href="SanPham.html#DRIVE">DRIVE</a></div>
+                    </div>
+                </li>
+                <li><a href="GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>FORM LIÊN HỆ</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td class="field">
+                            Họ và tên
+                        </td>
+                        <td class="fill">
+                            <input type="text" placeholder="Trương Thanh Khang Em">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">
+                            Số điện thoại
+                        </td>
+                        <td class="fill">
+                            <input type="tel" placeholder="0559xxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">
+                            Email
+                        </td>
+                        <td class="fill">
+                            <input type="mail" placeholder="tieukhang1909@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">
+                            Tiêu đề
+                        </td>
+                        <td class="fill">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">
+                            Nội dung
+                        </td>
+                        <td class="fill">
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">
+                            Độ hài lòng
+                        </td>
+                        <td class="fill">
+                            <input type="range" oninput="point.textContent = value + ' point'" min="0" max="10">
+                            <label id="point">5 point</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input class="btn" type="reset" value="Làm lại">
+                            <input class="btn" type="submit" value="Gửi thông tin">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="footer">
+            Trương Thanh Khang Em - 501230086
+            <a href="#top">
+                <button>Top</button>
+            </a>
+        </div>
+
+    </center>
+    <script src="../script/lienhe.js"></script>
+</body>
+
+</html>

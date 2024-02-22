@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Computer</title>
+    <link href="../source/icon.png" rel="icon">
+    <link href="../style/format.css" rel="stylesheet">
+    <link href="../style/chitiet.css" rel="stylesheet">
+    <script src="../script/ThongTinSanPham.js"></script>
+</head>
+
+<body>
+    <center>
+        <div id="banner">
+            <div id="logo">
+                <h1>Your Computer</h1>
+                <h3>For your job or gaming</h3>
+            </div>
+            <div id="search_box">
+                <label>Bạn cần tìm gì?</label>
+                <input>
+                <button>Search</button>
+            </div>
+            <div id="account">
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/account-icon.webp">
+                                    </td>
+                                    <td>
+                                        Tài khoản<br>Đăng nhập
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/cart-icon.webp">
+                                    </td>
+                                    <td>
+                                        Giỏ hàng
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="header">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="SanPham.html">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <div><a href="SanPham.html#CPU">CPU</a></div>
+                        <div><a href="SanPham.html#VGA">VGA</a></div>
+                        <div><a href="SanPham.html#RAM">RAM</a></div>
+                        <div><a href="SanPham.html#DRIVE">DRIVE</a></div>
+                    </div>
+                </li>
+                <li><a href="GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <table>
+                <tr>
+                    <td id="col1">
+                        <img id="product_image" src="" alt="Product Image">
+                    </td>
+                    <td id="col2">
+                        <h1 id="product_name">Tên sản phẩm</h1>
+                        <h3 id="brand">Thương hiệu</h3>
+                        <h3 id="SL">Số lượng</h3>
+                        <h2 id="price">Giá</h2>
+                        <button>Đặt hàng</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h3 id="common">Đặc điểm</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            Trương Thanh Khang Em - 501230086
+            <a href="#top">
+                <button>Top</button>
+            </a>
+        </div>
+
+    </center>
+    <script src="../script/chitiet.js"></script>
+</body>
+
+</html>

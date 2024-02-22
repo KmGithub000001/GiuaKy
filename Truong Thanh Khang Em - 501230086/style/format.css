@@ -1,0 +1,175 @@
+#banner {
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    justify-content: space-between;
+    background-image: linear-gradient(to top right, yellow, green);
+}
+
+#logo {
+    width: 300px;
+    height: 70px;
+    padding: 15px 0px 15px 0px;
+}
+
+#logo>h1 {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    background-color: #C4DDF1;
+    color: #4F6806;
+    border-radius: 10px;
+}
+
+#logo>h3 {
+    margin: 0px;
+    color: white;
+}
+
+#search_box {
+    width: 420px;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+}
+
+#search_box input {
+    width: 350px;
+    height: 40px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+    background-color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search_box label {
+    left: 15px;
+    padding: 2px;
+    color: black;
+    background-color: darkkhaki;
+    position: absolute;
+}
+
+#search_box button {
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+    border: none;
+    background-color: yellow;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#account {
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#account table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    color: white;
+}
+
+#account table table {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#header {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    background-color: #333333;
+}
+
+#header>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#header>ul>li {
+    padding: 10px 50px 0px 50px;
+    margin-top: 7px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+#header li div{
+    width: 100%;
+    left: 0px;
+    top: 40px;
+}
+
+#content {
+    width: 1100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #367C2B;
+}
+
+#footer {
+    width: 1100px;
+    height: 30px;
+    padding: 5px 50px 0px 50px;
+    background-color: #415841;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#footer button {
+    width: 50px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer button:hover {
+    background-color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    background-color: #333333;
+}
+.dropdown-content a{
+    padding: 10px;
+    margin: 10px;
+}
+.dropdown-content>div:hover{
+    background-color: chocolate;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}

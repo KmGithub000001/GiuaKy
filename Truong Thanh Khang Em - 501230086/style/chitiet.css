@@ -1,0 +1,35 @@
+#content{
+    display: inline-block;
+    color: white;
+}
+#col1{
+    width: 500px;
+}
+#col2{
+    width: 400px;
+    padding-left: 50px;
+}
+#col2 button{
+    width: 200px;
+    height: 50px;
+    color: #367C2B;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serifs;
+}
+#col2 button:hover{
+    background-color: aqua;
+    border: 3px dodgerblue black;
+}
+#content td{
+    text-align: left;
+    vertical-align: top;
+}
+#product_image{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

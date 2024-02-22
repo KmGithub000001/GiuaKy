@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Computer</title>
+    <link href="../source/icon.png" rel="icon">
+    <link href="../style/format.css" rel="stylesheet">
+    <link href="../style/sanpham.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="banner">
+            <div id="logo">
+                <h1>Your Computer</h1>
+                <h3>For your job or gaming</h3>
+            </div>
+            <div id="search_box">
+                <label>Bạn cần tìm gì?</label>
+                <input>
+                <button>Search</button>
+            </div>
+            <div id="account">
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/account-icon.webp">
+                                    </td>
+                                    <td>
+                                        Tài khoản<br>Đăng nhập
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../source/cart-icon.webp">
+                                    </td>
+                                    <td>
+                                        Giỏ hàng
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="header">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="SanPham.html">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <div><a href="SanPham.html#CPU">CPU</a></div>
+                        <div><a href="SanPham.html#VGA">VGA</a></div>
+                        <div><a href="SanPham.html#RAM">RAM</a></div>
+                        <div><a href="SanPham.html#DRIVE">DRIVE</a></div>
+                    </div>
+                </li>
+                <li><a href="GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="menu">
+                <h2>Doanh mục</h2>
+                <h3>=============</h3>
+                <div class="dropdown dropdown_menu">
+                    <a href="#CPU">
+                        <div>CPU</div>
+                    </a>
+                    <div class="dropdown-content content_menu">
+                        <div><a href="#CPU_AMD">AMD</a></div>
+                        <div><a href="#CPU_INTEL">INTEL</a></div>
+                    </div>
+
+                </div>
+                <div class="dropdown dropdown_menu">
+                    <a href="#VGA">
+                        <div>VGA</div>
+                    </a>
+                    <div class="dropdown-content content_menu">
+                        <div><a href="#VGA_RTX">RTX</a></div>
+                        <div><a href="#VGA_RX">RX</a></div>
+                    </div>
+
+                </div>
+                <div class="dropdown dropdown_menu">
+                    <a href="#RAM">
+                        <div>RAM</div>
+                    </a>
+                    <div class="dropdown-content content_menu">
+                        <div><a href="#RAM_DDR3">DDR3</a></div>
+                        <div><a href="#RAM_DDR4">DDR4</a></div>
+                        <div><a href="#RAM_DDR5">DDR5</a></div>
+                    </div>
+
+                </div>
+                <div class="dropdown dropdown_menu">
+                    <a href="#DRIVE">
+                        <div>DRIVE</div>
+                    </a>
+                    <div class="dropdown-content content_menu">
+                        <div><a href="#DRIVE_SSD">SSD</a></div>
+                        <div><a href="#DRIVE_HDD">HDD</a></div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="list">
+                <div id="CPU">
+                    <h2>CPU</h2>
+                    <div id="CPU_INTEL">
+                        <h3>INTEL</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/i3.webp" onclick="show(this.src, 'CPU', 'INTEL', 'id1')">
+                                <h4>CPU Intel Core i3-12100F</h4>
+                                <h4>Giá: 2.290.000đ</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/i5.webp" onclick="show(this.src, 'CPU', 'INTEL', 'id2')">
+                                <h4>CPU Intel Core i5-13400F</h4>
+                                <h4>Giá: 5.350.000đ</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/i7.webp" onclick="show(this.src, 'CPU', 'INTEL', 'id3')">
+                                <h4>CPU Intel Core i7-13700F</h4>
+                                <h4>Giá: 9.790.000đ</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/i9.webp" onclick="show(this.src, 'CPU', 'INTEL', 'id4')">
+                                <h4>CPU Intel Core i9-14900KF</h4>
+                                <h4>Giá: 13.990.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="CPU_AMD">
+                        <h3>AMD</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/ryzen5.webp" onclick="show(this.src, 'CPU', 'AMD', 'id1')">
+                                <h4>CPU AMD Ryzen 5 7600</h4>
+                                <h4>Giá: 5.490.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/ryzen7.webp" onclick="show(this.src, 'CPU', 'AMD', 'id2')">
+                                <h4>CPU AMD Ryzen 7 7700</h4>
+                                <h4>Giá: 9.190.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/ryzen9.webp" onclick="show(this.src, 'CPU', 'AMD', 'id3')">
+                                <h4>CPU AMD Ryzen 9 7900</h4>
+                                <h4>Giá: 11.190.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="VGA">
+                    <h2>VGA</h2>
+                    <div id="VGA_RTX">
+                        <h3>RTX</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/rtx4060.webp" onclick="show(this.src, 'VGA', 'RTX', 'id1')">
+                                <h4>VGA Gigabyte GeForce RTX 4060</h4>
+                                <h4>Giá: 8.350.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rtx4070.webp" onclick="show(this.src, 'VGA', 'RTX', 'id2')">
+                                <h4>VGA MSI GeForce RTX 4070</h4>
+                                <h4>Giá: 16.390.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rtx4090.webp" onclick="show(this.src, 'VGA', 'RTX', 'id3')">
+                                <h4>VGA Asus TUF Gaming GeForce RTX 4090</h4>
+                                <h4>Giá: 65.990.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="VGA_RX">
+                        <h3>RX</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/rx7700.webp" onclick="show(this.src, 'VGA', 'RX', 'id1')">
+                                <h4>VGA ASRock Radeon RX 7700</h4>
+                                <h4>Giá: 12.890.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rx7900.webp" onclick="show(this.src, 'VGA', 'RX', 'id2')">
+                                <h4>VGA ASRock Radeon RX 7900</h4>
+                                <h4>Giá: 31.990.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rx7800.webp" onclick="show(this.src, 'VGA', 'RX', 'id3')">
+                                <h4>VGA ASRock Radeon RX 7800</h4>
+                                <h4>Giá: 15.990.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rx6600.webp" onclick="show(this.src, 'VGA', 'RX', 'id4')">
+                                <h4>VGA Gigabyte Radeon RX 6600</h4>
+                                <h4>Giá: 5.550.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/rx7600.webp" onclick="show(this.src, 'VGA', 'RX', 'id5')">
+                                <h4>VGA ASRock Radeon RX 7600</h4>
+                                <h4>Giá: 8.290.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="RAM">
+                    <h2>RAM</h2>
+                    <div id="RAM_DDR3">
+                        <h3>DDR3</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/ddr3-4.webp" onclick="show(this.src, 'RAM', 'DDR3', 'id1')">
+                                <h4>Ram PC G.SKILL Aegis 4GB</h4>
+                                <h4>Giá: 260.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/ddr3-8.webp" onclick="show(this.src, 'RAM', 'DDR3', 'id2')">
+                                <h4>Ram PC G.SKILL Aegis 8GB</h4>
+                                <h4>Giá: 415.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="RAM_DDR4">
+                        <h3>DDR4</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/ddr4-4.webp" onclick="show(this.src, 'RAM', 'DDR4', 'id1')">
+                                <h4>Ram PC Kingston 4GB</h4>
+                                <h4>Giá: 420.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/ddr4-8.webp" onclick="show(this.src, 'RAM', 'DDR4', 'id2')">
+                                <h4>Ram PC Kingston 8GB</h4>
+                                <h4>Giá: 490.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/ddr4-16.webp" onclick="show(this.src, 'RAM', 'DDR4', 'id3')">
+                                <h4>Ram PC Kingston 16GB</h4>
+                                <h4>Giá: 850.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="RAM_DDR5">
+                        <h3>DDR5</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/ddr5-16.webp" onclick="show(this.src, 'RAM', 'DDR5', 'id1')">
+                                <h4>Ram PC Corsair Vengeance 16GB</h4>
+                                <h4>Giá: 1.280.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="DRIVE">
+                    <h2>DRIVE</h2>
+                    <div id="DRIVE_SSD">
+                        <h3>SSD</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/drive-ssd-250.webp" onclick="show(this.src, 'DRIVE', 'SSD', 'id1')">
+                                <h4>SSD Lexar 250G</h4>
+                                <h4>Giá: 490.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-ssd-500.webp" onclick="show(this.src, 'DRIVE', 'SSD', 'id2')">
+                                <h4>SSD Crucial P3 500GB</h4>
+                                <h4>Giá: 880.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-ssd-1t.webp" onclick="show(this.src, 'DRIVE', 'SSD', 'id3')">
+                                <h4>SSD Acer Predator 1TB</h4>
+                                <h4>Giá: 1.890.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-ssd-2t.webp" onclick="show(this.src, 'DRIVE', 'SSD', 'id4')">
+                                <h4>SSD Acer Predator 2TB</h4>
+                                <h4>Giá: 3.150.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="DRIVE_HDD">
+                        <h3>HDD</h3>
+                        <div class="type">
+                            <div class="item">
+                                <img src="../source/drive-hdd-1t.webp" onclick="show(this.src, 'DRIVE', 'HDD', 'id1')">
+                                <h4>HDD WD Purple 1TB</h4>
+                                <h4>Giá: 1.190.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-hdd-2t.webp" onclick="show(this.src, 'DRIVE', 'HDD', 'id2')">
+                                <h4>HDD WD Blue 2TB</h4>
+                                <h4>Giá: 1.520.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-hdd-4t.webp" onclick="show(this.src, 'DRIVE', 'HDD', 'id3')">
+                                <h4>HDD WD Blue 4TB</h4>
+                                <h4>Giá: 2.550.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                            <div class="item">
+                                <img src="../source/drive-hdd-6t.webp" onclick="show(this.src, 'DRIVE', 'HDD', 'id4')">
+                                <h4>HDD WD Blue 6TB</h4>
+                                <h4>Giá: 3.950.000₫</h4>
+                                <button>Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Trương Thanh Khang Em - 501230086
+            <a href="#top">
+                <button>Top</button>
+            </a>
+        </div>
+
+    </center>
+    <script src="../script/sanpham.js"></script>
+</body>
+
+</html>

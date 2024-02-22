@@ -1,0 +1,107 @@
+
+#menu{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: block;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+#menu>h2{
+    margin: 10px;
+}
+#menu>h3{
+    margin: 5px;
+}
+
+.dropdown_menu{
+    width: 150px;
+    height: 30px;
+    background-color: chocolate;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown_menu>a{
+    text-decoration: none;
+    color: black;
+}
+.content_menu{
+    top: 0px;
+    left: 150px;
+    background-color: chocolate;
+}
+.content_menu>div{
+    padding: 10px;
+}
+.content_menu a{
+    text-decoration: none;
+    color: black;
+}
+#list{
+    width: 800px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+}
+#list>div{
+    width: 800px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+#list>div>div{
+    width: 780px;
+    background-color: chocolate;
+    border-radius: 10px;
+}
+#list h2{
+    margin: 0px;
+    text-align: left;
+    background-color: yellow;
+    padding: 5px 0px 5px 20px;
+}
+#list h3{
+    margin: 10px 0px 0px 0px;
+    text-align: left;
+    padding: 10px 0px 10px 30px;
+    background-color: cornflowerblue;
+    border-radius: 10px 10px 0px 0px;
+}
+.type{
+    width: 100%;
+    text-align: left;
+}
+.item{
+    width: 200px;
+    height: 330px;
+    margin: 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.item:hover{
+    box-shadow: 5px 5px blue;
+}
+.item button:hover{
+    background-color: chartreuse;
+}
+.item>img{
+    width: 180px;
+    height: 200px;
+}
+.item>h4{
+    margin: 0px;
+    padding: 0px;
+}
+.item>button{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

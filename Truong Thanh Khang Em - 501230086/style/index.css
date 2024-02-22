@@ -1,0 +1,19 @@
+.doanhduc{
+    width: 250px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.doanhduc:hover{
+   box-shadow: 5px 5px 5px greenyellow;
+}
+.doanhduc img{
+    width: 200px;
+    height: 210px;
+}
+.doanhduc a{
+    text-decoration: none;
+
+}

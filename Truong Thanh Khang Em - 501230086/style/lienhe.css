@@ -1,0 +1,58 @@
+#content {
+    display: block;
+}
+
+#content h1 {
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+.field{
+    width: 150px;
+    color: white;
+}
+.fill{
+    width: 500px;
+}
+#content table {
+    font-weight: bold;
+    font-size: large;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#content table td{
+    padding: 10px;
+    margin: 0px;
+}
+
+.fill input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.fill textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn{
+    width: 49%;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: #3474eb;
+}
+#point{
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
